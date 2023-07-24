@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+
+:root{
+    --primary-font-family:'Poppins',sans-serif;
+    --light-white:#f5f8fa;
+    --gray:#5e6278;
+    --gray-1:#e3e3e3;
+}
+
+#balance{
+    border: 5px solid #0dcaf0;
+    max-width: fit-content;
+    border-radius: 10px;
+    animation: none;
+}
+
+.wrapper input{
+    background-color: var(--light-white);
+    border-color: var(--light-white);
+    color: var(--gray);
+}
+
+.wrapper input:focus{
+    box-shadow: none;
+}
+
+.wrapper .submit_btn{
+    padding: 10px;
+    font-weight: 500;
+}
+
+@keyframes blastg {
+    0%{
+        box-shadow: 0 0 20px rgb(127, 153, 127),
+        0 0 40px rgb(127, 153, 127), 
+        0 0 60px rgb(127, 153, 127), 
+        0 0 80px rgb(127, 153, 127), 
+        0 0 120px rgb(127, 153, 127),
+        0 0 220px rgb(127, 153, 127),
+        0 0 320px rgb(127, 153, 127);
+        transition: .5s;
+    }
+    100%{
+        box-shadow: 0 0 0 30px rgb(83, 224, 83), 
+                        0 0 0 60px rgb(83, 224, 83),
+                        0 0 0 100px rgb(83, 224, 83),
+                        0 0 0 120px rgb(82, 226, 82), 
+                        0 0 0 200px rgb(37, 214, 37),
+                        0 0 0 400px rgb(27, 165, 27), 
+                        0 0 0 450px rgb(63, 235, 63);
+    }
+}
+    
+
+@keyframes blastr {
+    0%{
+        box-shadow: 0 0 20px rgb(127, 153, 127),
+        0 0 40px rgb(209, 148, 17), 
+        0 0 60px rgb(114, 198, 24), 
+        0 0 80px rgb(211, 179, 22), 
+        0 0 120px rgb(200, 170, 22),
+        0 0 220px rgb(207, 106, 11),
+        0 0 320px rgb(225, 29, 15);
+        transition: .5s;
+    }
+    100%{
+        box-shadow: 0 0 0 30px rgb(255, 94, 0), 
+                        0 0 0 60px rgb(198, 15, 15),
+                        0 0 0 100px rgb(214, 48, 48),
+                        0 0 0 120px rgb(157, 19, 19), 
+                        0 0 0 200px rgb(185, 7, 7),
+                        0 0 0 400px rgb(170, 1, 1), 
+                        0 0 0 450px rgb(134, 1, 1);
+    }
+}
+    
+@keyframes blastb {
+    0%{
+        box-shadow: 0 0 20px rgb(49, 204, 186),
+        0 0 40px rgb(70, 140, 215), 
+        0 0 60px rgb(49, 136, 207), 
+        0 0 80px rgb(63, 105, 211), 
+        0 0 120px rgb(72, 55, 221),
+        0 0 220px rgb(65, 92, 226),
+        0 0 320px rgb(22, 87, 165);
+        transition: .5s;
+    }
+    100%{
+        box-shadow: 0 0 0 30px rgb(14, 110, 255), 
+                        0 0 0 60px rgb(13, 16, 198),
+                        0 0 0 100px rgb(55, 23, 201),
+                        0 0 0 120px rgb(17, 29, 196), 
+                        0 0 0 200px rgb(40, 11, 157),
+                        0 0 0 400px rgb(11, 14, 157), 
+                        0 0 0 450px rgb(22, 5, 101);
+    }
+}
+    
